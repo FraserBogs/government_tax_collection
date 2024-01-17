@@ -1,0 +1,29 @@
+
+.form-layout {
+    border-radius: 15px;
+    width: 500px; 
+}
+
+
+.message-text{
+
+    color: wheat;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('/static/images/government.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: backgroundAnimation 30s linear infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}

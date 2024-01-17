@@ -1,0 +1,40 @@
+{% extends 'tax_collection/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <body style="background-color: #f8f9fa;"> <!-- Set a background color for the entire page -->
+
+        <div class="container mt-5 bg-light shadow-md p-5 form-layout"> <!-- Customize the container style -->
+
+            <h3 class="text-center text-primary">Login to Your Account</h3> <!-- Centered and styled heading -->
+            <hr>
+
+            <br>
+
+            <form method="POST" autocomplete="off">
+
+                {% csrf_token %}
+
+                {{form|crispy}}
+
+                <br>
+
+                <button type="submit" class="btn btn-primary w-100 btn-block p-2">Login &nbsp; <i class="fa fa-key" aria-hidden="true"></i></button>
+
+            </form>
+
+            <br>
+
+            <div class="text-center">
+
+                <p>Don't have an account?</p> <a href="{% url 'register' %}" class="text-info">Register</a> 
+
+            </div>
+
+        </div>
+
+        <br>
+
+    </body>
+{% endblock %}

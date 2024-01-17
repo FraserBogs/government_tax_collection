@@ -1,0 +1,100 @@
+1.pip install --> python -m ensurepip --default-pip
+2.pip install django 
+
+3.pip install django-crispy-forms==1.14.0
+
+S1 model adlari
+model adlari her bir proyekt ucun --> 
+1. retail point of sale(pos)system --> creation_date, customer_first_name, customer_last_name, customer_email, customer_phone,
+ customer_address,  payment_card_number, card_expiration_date, card_cvv
+
+ 
+2.energy management system --> creation_date, first_name, last_name, email, phone, energy_consumption, payment_method, meter_reading_time, cvv
+
+
+3. waste management system --> creation_date, category, description, weight, disposal_method, location, capacity, collected_items,
+total_collected_weight
+
+4. argicultural management system --> creation_date, name, variety, planting_date, harvest_date, quantity, lifecycle_duration, watering_requirements, 
+soil_type
+
+6.car insurance management system --> creation_date, first_name, last_name, phone, model, year, premium_amount, start_date,
+end_date
+
+7. health tracking system --> creation_date, first_name, last_name, email, phone, heart_rate, address, insurance_provider, checkup_schedule
+
+8. fitness tracking system --> creation_date, first_name, last_name, phone, birthdate, gender, exercise, duration_minutes, calories_burned,
+
+9. social media platform --> creation_date, first_name, last_name, email,  bio, followers, content, likes, post
+
+10.online auction system --> creation_date, title, description, start_datetime, end_datetime, starting_price, current_price, seller, winner
+
+11. news and media distribution system --> creation_date, name, email, title, content, author, category, tags, subscribers
+
+12. telemedicine system --> creation_date, userdoctor, doctorspecialty, user, date_of_birth, gender, medical_history, appointment_datetime,
+medications
+
+13. event management system --> creation_date, name, title, description, start_datetime, end_datetime, location, category, participants
+
+14.personal finance management system --> creation_date, name, description, user, amount, income_category, expense_category, start_date, end_date
+
+15.digital marketing platform --> creation_date, name, campaign, title, content, target_audience, ad, timestamp, demographics
+
+16. cloud storage service --> creation_date, user, used_storage, total_storage, file_name, file_size, upload_date, shared_with, deletion_date
+
+17. cybersecurity threat monitoring system --> creation_date, name, monitoring_date, security_level, monitoring, threat_category, 
+ targets, address, contact_number 
+
+18. legal case management system --> creation_date, client, lawyer, case_number, court_name, filing_date, status, location, outcome
+
+19. art gallery management system --> creation_date, artist, bio, title, description, creation_date, price, buyer_name, order_date
+
+S2 model adlari 
+
+20. university management system --> creation_date, department_name, description, student_first_name, student_last_name, date_of_birth, course,
+grade_value, enrollment
+
+21. hospital management system --> creation_date, patient_name, date_of_birth, gender, contact_number, address, medical_history, appointment_date,
+symptoms
+
+22. hotel booking system --> creation_date, user, hotel_name, room, check_in_date, check_out_date, total_price, rating, comment
+
+23. student information system --> creation_date, first_name, last_name, date_of_birth, gender, contact_number, address, school, courses
+
+24. restaurant management system --> creation_date, restaurant_name, menu_description, menu_category, price, table_number, reservation_datetime,
+order_datetime, total_amount
+
+25. resources management system --> creation_date, project, name, description, start_date, end_date, assigned_resources, resource, assigned_quantity
+
+26. customer relationship management (CRM) system --> creation_date, first_name, last_name, email, phone_number, address, company_name, 
+position, date_added
+
+27. supply chain management system --> creation_date, supplier, products, order_date, delivery_date, purchase_order, quantity, shipment, 
+shipment_quantity
+
+28. E-commerce platform --> creation_date, category_name, category_description, product_price, stock_quantity, order_date, total_amount, 
+payment_date, payment_method
+
+29. Online banking system --> creation_date, bank_name, account_number, balance, sender, receiver, amount, expiration_date, cvv
+
+30. Library management system --> creation_date, user, author_name, biography, book_title, publication_date, genre, borrow_date, return_date,
+
+31. Inventory management system --> creation_date, product_name, unit_price, current_stock, supplier, contact_number, email, order_date, delivery_date
+
+32. Airline reservation system --> creation_date, airport_name, arrival_airport, departure_datetime, arrival_datetime, 
+passenger, reservation_date, seat_number, price
+
+33. Public transportation system --> creation_date, first_name, last_name, contact_number, trip, stop, departure_time, boarding_time, vehicle
+
+34.Learning management system --> creation_date, course_title, start_date, end_date, content, student_informations, enrolled_courses,
+submission_date, score
+
+35. Content management system --> creation_date, first_name, last_name, article_title, content, publication_date, categories, tags, author,
+
+36. Project management software --> creation_date, project_title, project_description, start_date, end_date, priority, status, team_members, 
+due_date
+
+37. Real estate management system --> creation_date, property_type, title, description, address, bedrooms, bathrooms, price, contract
+
+38. Manufacturing execution system --> creation_date, work_order, task_name, description, estimated_start_time, estimated_end_time, 
+actual_start_time, actual_end_time, quantity

@@ -1,0 +1,61 @@
+{% extends 'tax_collection/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <body>
+
+        <div class="container bg-light shadow-md p-5 form-layout">
+
+            <h3> Create record </h3>
+            <h6> Start adding in the required details for your record. </h6>
+            <hr>
+
+            <br>
+
+            <form method="POST" autocomplete="off">
+
+                {% csrf_token %}
+
+                {{form.first_name|as_crispy_field}}
+
+                <br>
+
+                {{form.last_name|as_crispy_field}}
+
+                <br>
+
+                {{form.email|as_crispy_field}}
+
+                <br>
+
+                {{form.phone|as_crispy_field}}
+
+                <br>
+
+                {{form.address|as_crispy_field}}
+
+                <br>
+
+                {{form.credit_cart|as_crispy_field}}
+
+                <br>
+
+                {{form.bitmevaxti|as_crispy_field}}
+
+                <br>
+
+                {{form.cvv|as_crispy_field}}
+
+                <br>
+
+                <button type="submit" class="btn btn-primary w-100 btn-block p-2"> Create record &nbsp; <i class="fa fa-check" aria-hidden="true"></i></button>
+
+            </form>
+
+        </div>
+
+    </body>
+
+{% endblock %}
